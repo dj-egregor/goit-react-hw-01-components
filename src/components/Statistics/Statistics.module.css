@@ -1,0 +1,33 @@
+.statistics {
+  width: 370px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px rgba(145, 145, 145, 0.38);
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.statList {
+  display: flex;
+}
+
+.label,
+.percentage {
+  display: block;
+}
+
+.percentage {
+  font-size: 20px;
+}
+
+.title {
+  color: var(--font-color);
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+}
